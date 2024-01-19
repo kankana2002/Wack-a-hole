@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/portals_3/2x1_SuperMarioHub_image1600w.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#board{
+    width: 480px;
+    height: 480px;
+    background: url("https://img.freepik.com/premium-vector/game-ground-texture-seamless-land-with-grass-soil_176411-6449.jpg");
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10px;
+}
+#board div{
+    width: 160px;
+    height: 160px;
+    background-image: url("https://www.models-resource.com/resources/big_icons/47/46453.png?updated=1625181213");
+    background-size: cover;
+
+}
+
+#board div img{
+    width: 70px;
+    height: 70px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    
+}
