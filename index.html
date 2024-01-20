@@ -12,5 +12,13 @@
     <h2 id="score">0</h2>
     <!-- ----------creating a 3*3 board------ -->
     <div id="board"></div>
+    <audio id="song">
+        <source src="9E8C7YR-retro-game-game-over.mp3">
+    </audio>
+    <script>
+        window.addEventListener('click', () =>{
+            document.getElementById("song").play();
+        });
+    </script>
 </body>
 </html>
